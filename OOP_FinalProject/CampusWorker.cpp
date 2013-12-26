@@ -29,12 +29,12 @@ void CampusWorker::printCourseInfo(const int courseId) const {
     course->printInfo();
 }
 
-void CampusWorker::updateStudent(Student student) {
+void CampusWorker::updateStudent(Student *student) {
 	////allows the worker to update students info
     StudentsDb *db = StudentsDb::getInstance();
-    Student *st = db->getStudent(student.getId());
-    st->setBirthDate(student.getBirthDate());
-    st->setName(student.getName());
+    Student *st = db->getStudent(student->getId());
+    st->setBirthDate(student->getBirthDate());
+    st->setName(student->getName());
 }
 
 void CampusWorker::enroll(int studentId, int courseId) {
@@ -86,25 +86,34 @@ void CampusWorker::printReport(int studentId) const {
     }
 }
 
-void CampusWorker::openNewCourse(Course course) {
+void CampusWorker::enrollNewStudent(Student *student){
+	//Createing a new Course
+	StudentsDb *db = StudentsDb::getInstance();
+	std::vector<Student *> students = db->getStudents();
+	std::vector<Student *>::iterator it;
+	it = students.begin();
+	it = students.insert(it, student);
+}
+
+void CampusWorker::openNewCourse(Course *course) {
 	//Createing a new Course
     CoursesDb *db = CoursesDb::getInstance();
     std::vector<Course *> courses = db->getCourses();
 	std::vector<Course *>::iterator it;
     it = courses.begin();
-    it = courses.insert(it, &course);
+    it = courses.insert(it, course);
 }
 
-void CampusWorker::updateCourse(Course aCourse) {
+void CampusWorker::updateCourse(Course *aCourse) {
 	//updateing an existing Course
     CoursesDb *db = CoursesDb::getInstance();
-    Course *course = db->getCourse(aCourse.getCourseId());
+    Course *course = db->getCourse(aCourse->getCourseId());
 
-    course->setCourseName(aCourse.getCourseName());
-    course->setCoursePoints(aCourse.getCoursePoints());
-    course->setCourseSemester(aCourse.getCourseSemester());
-    course->setCourseLecturerId(aCourse.getCourseLecturerId());
-    course->setRequiredCourses(aCourse.getRequiredCourses());
+	course->setCourseName(aCourse->getCourseName());
+	course->setCoursePoints(aCourse->getCoursePoints());
+	course->setCourseSemester(aCourse->getCourseSemester());
+	course->setCourseLecturerId(aCourse->getCourseLecturerId());
+	course->setRequiredCourses(aCourse->getRequiredCourses());
 }
 
 void CampusWorker::updateStudentFinalGrade(int studentId, int courseId, int finalGrade) {

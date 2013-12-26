@@ -7,3 +7,4 @@
 //
 
 #include "BScAdvancedCourse.h"
+#include "pch.h"

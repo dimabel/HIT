@@ -31,6 +31,8 @@ public:
         instanceFlag = false;
     }
     Student* getStudent(int studentId);
+	std::vector<Student *> getStudents() const;
+
 };
 
 #endif /* defined(__OOP_FinalProject__StudentsDb__) */

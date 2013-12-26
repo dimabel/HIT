@@ -22,9 +22,11 @@ CourseGradeMap* Student::getCourse(int courseId) {
 
 double Student::getStudentAge() const {
 	//returns students age
-		time_t now;
-		localtime (&now);
-		return difftime(birthDate, now);
+	//TODO: CALCULATE ACTUAL AGE
+//		time_t now;
+//		localtime (&now);
+//		return difftime(birthDate, now);
+	return 0.0;
 	}
 
 	time_t Student::getBirthDate() const {

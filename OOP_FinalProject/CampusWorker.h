@@ -23,11 +23,12 @@ public:
     void printStudentInfo(const int studentId) const;	//print students info
     void printCourseInfo(const int courseId) const;	//print Course info
 
-    void updateStudent(Student student);		//allows the worker to update students info
+    void updateStudent(Student *student);		//allows the worker to update students info
     void enroll(int studentId, int courseId);	//signs a user to a course, if it is possible
     void printReport(int studentId) const;		//prints students report
-    void openNewCourse(Course course);			//Createing a new Course
-    void updateCourse(Course course);			//updateing an existing Course
+	void enrollNewStudent(Student *student);	//signs a user to the system
+    void openNewCourse(Course *course);			//Createing a new Course
+    void updateCourse(Course *course);			//updateing an existing Course
     void updateStudentFinalGrade(int studentId, int courseId, int finalGrade);	//allows the worker to change students grade
     void updateStudentCourseStatus(int studentId, int courseId, CourseStatus courseStatus);	//changes a students course status
 	

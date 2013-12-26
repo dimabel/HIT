@@ -12,7 +12,7 @@
 #include "Student.h"
 #include <iostream>
 
-class BScStudent : Student {
+class BScStudent : public Student {
 	//B.Sc student class
 public:
     BScStudent();		//default constractor

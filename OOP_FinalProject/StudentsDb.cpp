@@ -25,6 +25,10 @@ StudentsDb* StudentsDb::getInstance()
     }
 }
 
+std::vector<Student *> StudentsDb::getStudents() const {
+	return students;
+}
+
 Student* StudentsDb::getStudent(int studentId) {
     for (auto it = begin (students); it != end (students); ++it) {
         Student *st = *it;

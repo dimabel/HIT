@@ -12,7 +12,7 @@
 #include <iostream>
 #include "Student.h"
 
-class UndergradStudent : Student {
+class UndergradStudent : public Student {
 public:
     UndergradStudent();		//default constractor
 	~UndergradStudent();	//default distractor

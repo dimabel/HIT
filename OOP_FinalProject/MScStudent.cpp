@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 Daniel Gorlovetsky. All rights reserved.
 //
 
+#include "pch.h"
 #include "MScStudent.h"
 
 bool MScStudent::hasStudentGraduated() {
