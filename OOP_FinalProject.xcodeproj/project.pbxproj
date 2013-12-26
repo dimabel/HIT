@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		FC003C681854A647003443C4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC003C671854A647003443C4 /* main.cpp */; };
 		FC003C6A1854A647003443C4 /* OOP_FinalProject.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC003C691854A647003443C4 /* OOP_FinalProject.1 */; };
+		FC003C7B1854A6E7003443C4 /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC003C791854A6E7003443C4 /* Student.cpp */; };
+		FC003C8A1854AA57003443C4 /* Lecturer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC003C881854AA57003443C4 /* Lecturer.cpp */; };
+		FC003C8D1854AA61003443C4 /* CampusWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC003C8B1854AA61003443C4 /* CampusWorker.cpp */; };
+		FC3A57C21868AB5000567BCE /* pch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A57BF1868AB5000567BCE /* pch.cpp */; };
+		FC3A57C51868AFA100567BCE /* BScStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A57C31868AFA100567BCE /* BScStudent.cpp */; };
+		FC3A57C81868AFAA00567BCE /* MScStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A57C61868AFAA00567BCE /* MScStudent.cpp */; };
+		FC3A57CB1868AFBA00567BCE /* UndergradStudent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A57C91868AFBA00567BCE /* UndergradStudent.cpp */; };
+		FC3A57CE1868B40100567BCE /* BScCourse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A57CC1868B40100567BCE /* BScCourse.cpp */; };
+		FC3A57D11868B40800567BCE /* MScCourse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A57CF1868B40800567BCE /* MScCourse.cpp */; };
+		FC3A57D41868B41900567BCE /* BScAdvancedCourse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A57D21868B41900567BCE /* BScAdvancedCourse.cpp */; };
+		FC3A57D618697E3400567BCE /* Course.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3A57D518697E3400567BCE /* Course.cpp */; };
+		FC57A65E185B4342000E8A15 /* CoursesDb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC57A65C185B4342000E8A15 /* CoursesDb.cpp */; };
+		FC57A667185B4434000E8A15 /* StudentsDb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC57A665185B4434000E8A15 /* StudentsDb.cpp */; };
+		FC57A66A185B79A7000E8A15 /* CourseGradeMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC57A668185B79A7000E8A15 /* CourseGradeMap.cpp */; };
+		FCA116B8185E248000B361DA /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA116B6185E248000B361DA /* Exception.cpp */; };
+		FCA116BC185E250100B361DA /* UnauthorizedException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCA116BA185E250100B361DA /* UnauthorizedException.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +44,39 @@
 		FC003C641854A647003443C4 /* OOP_FinalProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP_FinalProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC003C671854A647003443C4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FC003C691854A647003443C4 /* OOP_FinalProject.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OOP_FinalProject.1; sourceTree = "<group>"; };
+		FC003C711854A651003443C4 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		FC003C791854A6E7003443C4 /* Student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		FC003C7A1854A6E7003443C4 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		FC003C861854A9FA003443C4 /* SystemUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemUser.h; sourceTree = "<group>"; };
+		FC003C881854AA57003443C4 /* Lecturer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Lecturer.cpp; sourceTree = "<group>"; };
+		FC003C891854AA57003443C4 /* Lecturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lecturer.h; sourceTree = "<group>"; };
+		FC003C8B1854AA61003443C4 /* CampusWorker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CampusWorker.cpp; sourceTree = "<group>"; };
+		FC003C8C1854AA61003443C4 /* CampusWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusWorker.h; sourceTree = "<group>"; };
+		FC3A57BF1868AB5000567BCE /* pch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pch.cpp; sourceTree = "<group>"; };
+		FC3A57C01868AB5000567BCE /* pch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pch.h; sourceTree = "<group>"; };
+		FC3A57C31868AFA100567BCE /* BScStudent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BScStudent.cpp; sourceTree = "<group>"; };
+		FC3A57C41868AFA100567BCE /* BScStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BScStudent.h; sourceTree = "<group>"; };
+		FC3A57C61868AFAA00567BCE /* MScStudent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MScStudent.cpp; sourceTree = "<group>"; };
+		FC3A57C71868AFAA00567BCE /* MScStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MScStudent.h; sourceTree = "<group>"; };
+		FC3A57C91868AFBA00567BCE /* UndergradStudent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UndergradStudent.cpp; sourceTree = "<group>"; };
+		FC3A57CA1868AFBA00567BCE /* UndergradStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UndergradStudent.h; sourceTree = "<group>"; };
+		FC3A57CC1868B40100567BCE /* BScCourse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BScCourse.cpp; sourceTree = "<group>"; };
+		FC3A57CD1868B40100567BCE /* BScCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BScCourse.h; sourceTree = "<group>"; };
+		FC3A57CF1868B40800567BCE /* MScCourse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MScCourse.cpp; sourceTree = "<group>"; };
+		FC3A57D01868B40800567BCE /* MScCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MScCourse.h; sourceTree = "<group>"; };
+		FC3A57D21868B41900567BCE /* BScAdvancedCourse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BScAdvancedCourse.cpp; sourceTree = "<group>"; };
+		FC3A57D31868B41900567BCE /* BScAdvancedCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BScAdvancedCourse.h; sourceTree = "<group>"; };
+		FC3A57D518697E3400567BCE /* Course.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Course.cpp; sourceTree = "<group>"; };
+		FC57A65C185B4342000E8A15 /* CoursesDb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoursesDb.cpp; sourceTree = "<group>"; };
+		FC57A65D185B4342000E8A15 /* CoursesDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesDb.h; sourceTree = "<group>"; };
+		FC57A665185B4434000E8A15 /* StudentsDb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StudentsDb.cpp; sourceTree = "<group>"; };
+		FC57A666185B4434000E8A15 /* StudentsDb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsDb.h; sourceTree = "<group>"; };
+		FC57A668185B79A7000E8A15 /* CourseGradeMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CourseGradeMap.cpp; sourceTree = "<group>"; };
+		FC57A669185B79A7000E8A15 /* CourseGradeMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseGradeMap.h; sourceTree = "<group>"; };
+		FCA116B6185E248000B361DA /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		FCA116B7185E248000B361DA /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		FCA116BA185E250100B361DA /* UnauthorizedException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnauthorizedException.cpp; sourceTree = "<group>"; };
+		FCA116BB185E250100B361DA /* UnauthorizedException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnauthorizedException.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +109,75 @@
 		FC003C661854A647003443C4 /* OOP_FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				FC3A57BF1868AB5000567BCE /* pch.cpp */,
+				FC3A57C01868AB5000567BCE /* pch.h */,
+				FCA116B9185E24F000B361DA /* Exceptions */,
+				FC57A664185B43CC000E8A15 /* Lecturers */,
+				FC57A663185B43C7000E8A15 /* Students */,
+				FC57A662185B43C3000E8A15 /* Courses */,
 				FC003C671854A647003443C4 /* main.cpp */,
 				FC003C691854A647003443C4 /* OOP_FinalProject.1 */,
+				FC003C861854A9FA003443C4 /* SystemUser.h */,
+				FC003C8B1854AA61003443C4 /* CampusWorker.cpp */,
+				FC003C8C1854AA61003443C4 /* CampusWorker.h */,
 			);
 			path = OOP_FinalProject;
+			sourceTree = "<group>";
+		};
+		FC57A662185B43C3000E8A15 /* Courses */ = {
+			isa = PBXGroup;
+			children = (
+				FC3A57D518697E3400567BCE /* Course.cpp */,
+				FC003C711854A651003443C4 /* Course.h */,
+				FC57A65C185B4342000E8A15 /* CoursesDb.cpp */,
+				FC57A65D185B4342000E8A15 /* CoursesDb.h */,
+				FC57A668185B79A7000E8A15 /* CourseGradeMap.cpp */,
+				FC57A669185B79A7000E8A15 /* CourseGradeMap.h */,
+				FC3A57CC1868B40100567BCE /* BScCourse.cpp */,
+				FC3A57CD1868B40100567BCE /* BScCourse.h */,
+				FC3A57CF1868B40800567BCE /* MScCourse.cpp */,
+				FC3A57D01868B40800567BCE /* MScCourse.h */,
+				FC3A57D21868B41900567BCE /* BScAdvancedCourse.cpp */,
+				FC3A57D31868B41900567BCE /* BScAdvancedCourse.h */,
+			);
+			name = Courses;
+			sourceTree = "<group>";
+		};
+		FC57A663185B43C7000E8A15 /* Students */ = {
+			isa = PBXGroup;
+			children = (
+				FC003C791854A6E7003443C4 /* Student.cpp */,
+				FC003C7A1854A6E7003443C4 /* Student.h */,
+				FC57A665185B4434000E8A15 /* StudentsDb.cpp */,
+				FC57A666185B4434000E8A15 /* StudentsDb.h */,
+				FC3A57C31868AFA100567BCE /* BScStudent.cpp */,
+				FC3A57C41868AFA100567BCE /* BScStudent.h */,
+				FC3A57C61868AFAA00567BCE /* MScStudent.cpp */,
+				FC3A57C71868AFAA00567BCE /* MScStudent.h */,
+				FC3A57C91868AFBA00567BCE /* UndergradStudent.cpp */,
+				FC3A57CA1868AFBA00567BCE /* UndergradStudent.h */,
+			);
+			name = Students;
+			sourceTree = "<group>";
+		};
+		FC57A664185B43CC000E8A15 /* Lecturers */ = {
+			isa = PBXGroup;
+			children = (
+				FC003C881854AA57003443C4 /* Lecturer.cpp */,
+				FC003C891854AA57003443C4 /* Lecturer.h */,
+			);
+			name = Lecturers;
+			sourceTree = "<group>";
+		};
+		FCA116B9185E24F000B361DA /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				FCA116B6185E248000B361DA /* Exception.cpp */,
+				FCA116B7185E248000B361DA /* Exception.h */,
+				FCA116BA185E250100B361DA /* UnauthorizedException.cpp */,
+				FCA116BB185E250100B361DA /* UnauthorizedException.h */,
+			);
+			name = Exceptions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +231,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA116B8185E248000B361DA /* Exception.cpp in Sources */,
+				FC3A57CE1868B40100567BCE /* BScCourse.cpp in Sources */,
+				FC3A57D11868B40800567BCE /* MScCourse.cpp in Sources */,
+				FC003C8D1854AA61003443C4 /* CampusWorker.cpp in Sources */,
+				FC3A57C51868AFA100567BCE /* BScStudent.cpp in Sources */,
+				FC003C8A1854AA57003443C4 /* Lecturer.cpp in Sources */,
+				FC57A66A185B79A7000E8A15 /* CourseGradeMap.cpp in Sources */,
+				FC3A57D618697E3400567BCE /* Course.cpp in Sources */,
+				FC3A57CB1868AFBA00567BCE /* UndergradStudent.cpp in Sources */,
+				FC3A57C81868AFAA00567BCE /* MScStudent.cpp in Sources */,
+				FCA116BC185E250100B361DA /* UnauthorizedException.cpp in Sources */,
+				FC57A65E185B4342000E8A15 /* CoursesDb.cpp in Sources */,
+				FC57A667185B4434000E8A15 /* StudentsDb.cpp in Sources */,
+				FC003C7B1854A6E7003443C4 /* Student.cpp in Sources */,
 				FC003C681854A647003443C4 /* main.cpp in Sources */,
+				FC3A57C21868AB5000567BCE /* pch.cpp in Sources */,
+				FC3A57D41868B41900567BCE /* BScAdvancedCourse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +355,7 @@
 				FC003C6F1854A647003443C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
