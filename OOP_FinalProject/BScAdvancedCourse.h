@@ -12,7 +12,7 @@
 #include <iostream>
 #include "Course.h"
 
-class BScAdvancedCourse : Course {
+class BScAdvancedCourse : public Course {
 public:
     BScAdvancedCourse();	//default constractor
 	~BScAdvancedCourse();	//default distractor

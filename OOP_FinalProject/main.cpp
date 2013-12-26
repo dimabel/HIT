@@ -18,6 +18,7 @@
 #include "MScCourse.h"
 #include "BScAdvancedCourse.h"
 #include "UndergradStudent.h"
+#include <ctime>
 
 static BScStudent bscStudent;
 static MScStudent mscStudent;
@@ -109,11 +110,14 @@ void chooseWorkerUserAction() {
 		}
 		case 4://new student
 		{
-            int studentId;
             string studentName;
-            int studentAge;
+            time_t studentBirthDate;
             int studentStatus;
 
+            cout << "Enter the new status: 0:FAILED, 1:ENROLLED, 2:PASSED\n";
+            cin >> studentStatus;
+
+            //TODO: ADD BIRTHDATE
             cout << "Enter a new name for the student\n";
             cin >> studentName;
             
@@ -135,7 +139,7 @@ void chooseWorkerUserAction() {
             campusWorker.enrollNewStudent(student);
 			break;
 		}
-		case 5: //existing user
+            case 5: {//existing user
 			int courseId;
 			int studentId;
 
@@ -163,8 +167,8 @@ void chooseWorkerUserAction() {
 			cin >> coursePoints;
                 Course *course;
 			if (courseLevel == 0) {
-                BScAdvancedCourse bscAdvancedCourse;
-                course = &bscAdvancedCourse;
+                BScCourse bscCourse;
+                course = &bscCourse;
 			}
             else if (courseLevel == 1) {
                 BScAdvancedCourse bscAdvancedCourse;
@@ -175,9 +179,11 @@ void chooseWorkerUserAction() {
                 course = &mscCourse;
             }
                 
-                course->setCourseName(courseName);
+            course->setCourseName(courseName);
+            course->setCoursePoints(coursePoints);
 			campusWorker.openNewCourse(course);
 			break;
+        }
 		case 7: //update course
 		{
                 int courseId;
